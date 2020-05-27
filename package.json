@@ -1,0 +1,21 @@
+{
+  "name": "CucumberTestFramework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "bluebird": "^3.7.2",
+    "chromedriver": "^83.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
